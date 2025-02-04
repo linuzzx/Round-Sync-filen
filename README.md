@@ -7,6 +7,9 @@
 A cloud file manager, powered by rclone.
 Visit [https://roundsync.com](https://roundsync.com) for more information!
 
+Fork:
+Modified to use [JupiterPi/filen-rclone](https://github.com/JupiterPi/filen-rclone)
+
 
 ## Screenshots
 <table>
