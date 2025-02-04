@@ -27,7 +27,7 @@ ext {
     NDK_TOOLCHAIN_VERSION = project.properties['de.felixnuesse.extract.ndkToolchainVersion']
     RCLONE_VERSION = project.properties['de.felixnuesse.extract.rCloneVersion']
     GO_REQ_VERSION = project.properties['de.felixnuesse.extract.goVersion']
-    RCLONE_MODULE = 'github.com/rclone/rclone'
+    RCLONE_MODULE = 'github.com//linuzzx/filen-rclone'
     RCLONE_CUSTOM_VERSION_SUFFIX = '-extract'
 
     PROJECT_DIR = projectDir.absolutePath
@@ -197,7 +197,7 @@ task checkoutRclone(type: Exec, dependsOn: createRcloneModule) {
     }
     println "You are building rclone v${RCLONE_VERSION}"
 
-    commandLine 'go', 'get', '-v', '-d', "${RCLONE_MODULE}@v${RCLONE_VERSION}"
+    commandLine 'go', 'get', '-v', '-d', "${RCLONE_MODULE}"
 }
 
 task buildArm(dependsOn: checkoutRclone) {
