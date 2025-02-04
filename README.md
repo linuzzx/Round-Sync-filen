@@ -9,6 +9,7 @@ Visit [https://roundsync.com](https://roundsync.com) for more information!
 
 Fork:
 Modified to use [JupiterPi/filen-rclone](https://github.com/JupiterPi/filen-rclone)
+I take no responsability for anything you do with this, it's just a bodge.
 
 
 ## Screenshots
